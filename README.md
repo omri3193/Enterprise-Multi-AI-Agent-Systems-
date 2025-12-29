@@ -14,7 +14,7 @@
 ## 🌟 The Vision
 > **"Orchestrating Intelligence at Scale."**
 > 
-> **One-Line Summary:** “I built a cloud-native Multi-AI Agent system using LangGraph and LangChain, powered by Groq LLMs and Tavily search, with FastAPI and Streamlit, containerized using Docker, quality-checked with SonarQube, automated via Jenkins, and deployed on AWS ECS Fargate.”
+> **Summary:** “I built a cloud-native Multi-AI Agent system using LangGraph and LangChain, powered by Groq LLMs and Tavily search, with FastAPI and Streamlit, containerized using Docker, quality-checked with SonarQube, automated via Jenkins, and deployed on AWS ECS Fargate.”
 >
 > A production-grade, cloud-native Multi-AI Agent ecosystem built using **LangGraph** & **LangChain**, supercharged by **Groq (LPU)** for lightning-fast inference and **Tavily** for real-time web intelligence. Experience a full-stack solution with **FastAPI** backends, **Streamlit** frontends, and a rigorous **DevSecOps** pipeline (Jenkins, SonarQube, Docker) deployed on **AWS ECS Fargate**.
 
