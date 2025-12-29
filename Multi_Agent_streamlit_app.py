@@ -627,7 +627,14 @@ with tab5:
             st.rerun()
             
     # 2. Log File Viewer & Parsing
-    log_dir = os.path.join(os.getcwd(), "logs")
+    # Use absolute path based on script location for better cloud compatibility
+    base_dir = os.path.dirname(os.path.abspath(__file__))
+    log_dir = os.path.join(base_dir, "logs")
+    
+    # Ensure logs directory exists to prevent "not found" errors
+    if not os.path.exists(log_dir):
+        os.makedirs(log_dir, exist_ok=True)
+        
     if os.path.exists(log_dir):
         log_files = sorted(os.listdir(log_dir), reverse=True)
         if log_files:
