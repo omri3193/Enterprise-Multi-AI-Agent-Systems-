@@ -110,24 +110,23 @@ docker build -t multi-ai-agent .
 # Run the container
 docker run -p 8501:8501 --env-file .env multi-ai-agent
 ```
-
----
-
-## 📞 Contact
-
-**RATNESH SINGH**
-
-- 📧 **Email**: [rattudacsit2021gate@gmail.com](mailto:rattudacsit2021gate@gmail.com)
-- 💼 **LinkedIn**: [Ratnesh Kumar Singh](https://www.linkedin.com/in/ratneshkumar1998/)
-- 🐙 **GitHub**: [Ratnesh-181998](https://github.com/Ratnesh-181998)
-- 📱 **Phone**: +91-947XXXXX46
-
 ### 🔗 Project Links
 
 - 🌐 **Live Demo**: [Streamlit App](https://agentic-ai-trip-planner-crewai-ykagvec2ng6raotrdaw6sp.streamlit.app/)
 - 📖 **Documentation**: [GitHub Wiki](https://github.com/Ratnesh-181998/Enterprise-Multi-AI-Agent-Systemsr-/wiki)
 - 🐛 **Issue Tracker**: [GitHub Issues](https://github.com/Ratnesh-181998/Enterprise-Multi-AI-Agent-Systems-/issues)
 - 💬 **Discussions**: [GitHub Discussions](https://github.com/Ratnesh-181998/Enterprise-Multi-AI-Agent-Systems-/discussions)
+
+---
+
+## 📞 Contact
+
+**RATNESH KUMAR SINGH**
+
+- 📧 **Email**: [[rattudacsit2021gate@gmail.com]](mailto:rattudacsit2021gate@gmail.com)
+- 💼 **LinkedIn**: [[Ratnesh Kumar Singh]](https://www.linkedin.com/in/ratneshkumar1998/)
+- 🐙 **GitHub**: [[Ratnesh-181998]](https://github.com/Ratnesh-181998)
+- 📱 **Phone**: +91-947XXXXX46
 
 ---
 
