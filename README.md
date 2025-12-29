@@ -44,7 +44,11 @@ This application is organized into 5 specialized modules, each designed for a pr
 
 ## 📐 System Architecture Visualization
 
-### 🔄 Multi-Agent Interaction Loop
+### 🔄 System Workflow & Orchestration
+This diagram explains the high-level orchestration of user requests through the multi-agent graph.
+![System Workflow](Multi+AI+Agent+Workflow.png)
+
+### 🧩 Multi-Agent Interaction Loop
 The system utilizes a complex cyclic graph to manage state and agent transitions.
 ![Agent Interaction Loop](Archi_Diagram/Screenshot%202025-12-29%20095148.png)
 
