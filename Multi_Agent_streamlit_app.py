@@ -582,8 +582,8 @@ with tab4:
     st.markdown("---")
     st.subheader("📸 Additional Architecture Diagrams")
     
-    # Absolute path as requested
-    archi_dir = r"C:\Users\rattu\Downloads\7_MULTI AI AGENT\Local Run\Archi Diagram"
+    # Relative path for portable deployment
+    archi_dir = os.path.join(os.getcwd(), "Archi_Diagram")
 
     # Mapping filenames to descriptive titles/content
     image_metadata = {
