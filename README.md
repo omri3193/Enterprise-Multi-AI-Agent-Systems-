@@ -145,7 +145,7 @@ Maintaining the source of truth and triggering the DevSecOps pipeline.
 | :--- | :--- | :--- |
 | **🧠 AI Core** | **Groq, LangGraph, LangChain, Tavily** | Orchestration, Reasoning, and Real-time Intelligence. |
 | **🌐 Full-Stack** | **FastAPI, Streamlit, Pydantic** | Performance backend and Premium React-styled UI. |
-| **🚀 DevOps** | **Docker, Jenkins, AWS ECS, SonarQube** | CI/CD, Quality gates, and Cloud Scaling. |
+| **🚀 LLMOps** | **Docker, Jenkins, AWS ECS, SonarQube** | CI/CD, Quality gates, and Cloud Scaling. |
 
 ---
 
