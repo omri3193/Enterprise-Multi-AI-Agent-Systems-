@@ -1,0 +1,92 @@
+Tech stack :
+
+1.Groq → LLM
+
+2.Tavily → Online Search Tool
+
+3.LangChain → Generative AI Framework to interact with LLM
+
+4.LangGraph → Agentic AI Framework to make AI Agents
+
+5.FastAPI → To build backend APIs for handling user requests
+
+6.Streamlit → To make UI or frontend of the app
+
+7.Docker → For containerization of the app during deployment
+
+8.SonarQube → To check your code for bugs, security issues, and bad practices. It acts as a code quality evaluator
+
+9.Jenkins → For making CI/CD pipelines
+
+10.AWS ECS Fargate → To deploy and run your app on the cloud without managing servers. It is a service offered by AWS
+
+11.GitHub → It works as a Source Code Management (SCM) system for your project
+
+>>>>>>>>>>>>>>
+
+SonarQube → Open source → Checking Code Quality
+
+Checks performed by SonarQube
+
+1. Bugs
+
+2. Code Smells (Bad Practices)
+
+func = 300 lines (big fn)
+
+Split into:
+
+func1
+
+func2
+
+func3
+
+Benefits:
+
+Readability
+
+Analyze easily
+
+3. Code Duplication
+
+app.py → func1
+
+main.py → func1
+
+test.py → func1
+
+Dead Code Bug
+if msg == "hi":
+    print("Hi")
+elif msg == "hello":
+    print("Hello")
+elif msg == "hi":
+    print("Hi 2nd time")
+
+
+New elif will never get executed
+
+Bugs (Example)
+
+hi → Hi
+
+hello → Hello
+
+Code Smells (Bad Practices) – Example
+
+func = 300 lines (big fn)
+
+Split into:
+
+func1
+
+func2
+
+func3
+
+Benefits:
+
+Readability
+
+Analyze easily
