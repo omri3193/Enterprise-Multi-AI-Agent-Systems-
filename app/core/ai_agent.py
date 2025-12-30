@@ -6,6 +6,8 @@ from langchain_core.messages.ai import AIMessage
 
 from app.config.settings import settings
 
+from langchain_core.messages import SystemMessage, HumanMessage
+
 def get_response_from_ai_agents(llm_id , query , allow_search ,system_prompt):
 
     llm = ChatGroq(model=llm_id)
@@ -14,11 +16,16 @@ def get_response_from_ai_agents(llm_id , query , allow_search ,system_prompt):
 
     agent = create_react_agent(
         model=llm,
-        tools=tools,
-        messages_modifier=system_prompt
+        tools=tools
     )
 
-    state = {"messages" : query}
+    # Prepend the system prompt as a SystemMessage
+    # query is expected to be a list of strings from the caller
+    messages_payload = [SystemMessage(content=system_prompt)]
+    for q in query:
+        messages_payload.append(HumanMessage(content=q))
+
+    state = {"messages" : messages_payload}
 
     response = agent.invoke(state)
 
