@@ -1,4 +1,5 @@
 # 🤖 Enterprise Multi-AI Agent Systems
+<img width="940" height="359" alt="image" src="https://github.com/user-attachments/assets/1ae52182-7bbe-4e57-874b-d818f2f2d819" />
 
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3.10%2B-blue?style=for-the-badge&logo=python&logoColor=white" />
